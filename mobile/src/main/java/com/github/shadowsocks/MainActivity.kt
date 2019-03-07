@@ -237,6 +237,7 @@ class MainActivity : AppCompatActivity(), ShadowsocksConnection.Callback, OnPref
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //region SSD
+        /*
         val mineList= arrayListOf("huawei","smartisan","qiku","360")
         for(mine in mineList){
             if (android.os.Build.BOARD.toLowerCase().trim()==mine||android.os.Build.MANUFACTURER.toLowerCase().trim()==mine){
@@ -250,7 +251,7 @@ class MainActivity : AppCompatActivity(), ShadowsocksConnection.Callback, OnPref
                 Toast.makeText(this,getString(R.string.message_premine_detected,preMine),Toast.LENGTH_LONG).show()
             }
         }
-
+        */
         CheckVersion().apply {
             checkUpdateContext=this@MainActivity
         }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR)
@@ -341,6 +342,7 @@ class MainActivity : AppCompatActivity(), ShadowsocksConnection.Callback, OnPref
     override fun onStart() {
         super.onStart()
         //region SSD
+        /*
         val virusList= arrayListOf(
                 "com.qihoo360.mobilesafe",
                 "com.qihoo.appstore",
@@ -360,6 +362,7 @@ class MainActivity : AppCompatActivity(), ShadowsocksConnection.Callback, OnPref
             catch (exception:Exception){
             }
         }
+        */
         //endregion
         connection.bandwidthTimeout = 500
     }
