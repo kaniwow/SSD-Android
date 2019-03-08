@@ -25,11 +25,13 @@ Android 5.0+
 
 \[Windows/Linux/MacOS\]
 
-```
-因overturn已被取代移除，现已可以在Windows平台上进行编译
-```
-
 需使用`git clone --recurse-submodules <repo>`或 `git submodule update --init --recursive`进行初始化
+
+想和SSD共存请自行修改包名和签名文件
+
+## Download - 下载apk
+
+tv版的签名文件被我弄丢了，只提供download手机版（或许啥时候resign了就发出来了也不一定
 
 ## Open Source References - 开源引用
 ```
