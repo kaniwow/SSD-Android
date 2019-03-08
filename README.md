@@ -1,10 +1,12 @@
-# ShadowsocksD for Android
+# ShadowsocksD修改版 for Android
 
 ## Basic Project - 基础项目
 
 [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android)
 
-ShadowsocksD会跟随Shadowsocks更新代码。
+[shadowsocksD-android]https://github.com/CGDF-Github/SSD-Android
+
+ShadowsocksDDD会随着ShadowsocksD更新代码
 ```
   *  ShadowsocksD中的广告收入依然归Shadowsocks项目作者所有，ShadowsocksD不会分取此收入
 ```
@@ -17,11 +19,7 @@ ShadowsocksD会跟随Shadowsocks更新代码。
 
 Android 5.0+
 
-非\[华为/360/锤子\]设备
-
-不建议使用\[小米\]设备
-
-无\[360/2345/百度/腾讯\]全家桶
+取消了ShadowsocksD的设备限制和APP查探，请务必把``某些``国产APP加入分应用，并且自行加入``机场规则``
 
 ## Development - 开发
 
