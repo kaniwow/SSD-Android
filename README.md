@@ -1,4 +1,4 @@
-# ShadowsocksD修改版 for Android
+# ShadowsocksDDD for Android
 
 ## Basic Project - 基础项目
 
