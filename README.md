@@ -6,7 +6,7 @@
 
 [shadowsocksD-android]https://github.com/CGDF-Github/SSD-Android
 
-ShadowsocksDDD会随着ShadowsocksD更新代码
+ShadowsocksDDD~~会~~不会随着ShadowsocksD更新代码
 ```
   *  ShadowsocksD中的广告收入依然归Shadowsocks项目作者所有，ShadowsocksD不会分取此收入
 ```
